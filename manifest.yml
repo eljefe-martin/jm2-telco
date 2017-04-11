@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jm2-telco
+  host: jm2-telco
+  disk_quota: 1024M
+  services:
+  - jm2-telco-cloudantNoSQLDB
